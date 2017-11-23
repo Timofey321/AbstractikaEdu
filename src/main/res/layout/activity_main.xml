@@ -7,12 +7,53 @@
     tools:context="com.ton.hack.abstracktika.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="164dp"
+        android:layout_height="19dp"
         android:text="Скоро здесь будет игра!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.501" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="155dp"
+        android:layout_height="47dp"
+        android:text="выход"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="155dp"
+        android:layout_height="47dp"
+        android:text="выход"
+        tools:layout_editor_absoluteX="346dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="155dp"
+        android:layout_height="47dp"
+        android:text="подземелье"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="155dp"
+        android:layout_height="47dp"
+        android:text="Приключение"
+        tools:layout_editor_absoluteX="346dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="155dp"
+        android:layout_height="47dp"
+        android:text="Сенсей"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="227dp" />
 
 </android.support.constraint.ConstraintLayout>
