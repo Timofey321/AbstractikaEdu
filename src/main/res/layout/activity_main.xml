@@ -44,7 +44,7 @@
         android:id="@+id/teacher"
         android:layout_width="155dp"
         android:layout_height="47dp"
-        android:text="Сенсей"
+        android:text="Сенсей лох"
         tools:layout_editor_absoluteX="115dp"
         tools:layout_editor_absoluteY="142dp" />
 
