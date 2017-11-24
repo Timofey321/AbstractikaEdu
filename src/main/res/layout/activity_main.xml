@@ -30,7 +30,7 @@
         android:layout_height="47dp"
         android:text="подземелье"
         tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="278dp" />
+        tools:layout_editor_absoluteY="280dp" />
 
     <Button
         android:id="@+id/adventure"
@@ -44,8 +44,8 @@
         android:id="@+id/teacher"
         android:layout_width="155dp"
         android:layout_height="47dp"
-        android:text="Сенсей лох"
+        android:text="Сенсей"
         tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="142dp" />
+        tools:layout_editor_absoluteY="137dp" />
 
 </android.support.constraint.ConstraintLayout>
