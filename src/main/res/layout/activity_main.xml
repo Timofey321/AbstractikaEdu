@@ -21,31 +21,31 @@
         android:layout_width="155dp"
         android:layout_height="47dp"
         android:text="выход"
-        tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="316dp" />
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="340dp" />
 
     <Button
         android:id="@+id/dungeon"
         android:layout_width="155dp"
         android:layout_height="47dp"
         android:text="подземелье"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="316dp" />
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="278dp" />
 
     <Button
         android:id="@+id/adventure"
         android:layout_width="155dp"
         android:layout_height="47dp"
         android:text="Приключение"
-        tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="138dp" />
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="199dp" />
 
     <Button
         android:id="@+id/teacher"
         android:layout_width="155dp"
         android:layout_height="47dp"
         android:text="Сенсей"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="138dp" />
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="142dp" />
 
 </android.support.constraint.ConstraintLayout>
