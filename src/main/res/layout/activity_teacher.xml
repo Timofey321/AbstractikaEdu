@@ -8,9 +8,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="149dp"
-        android:layout_height="87dp"
+        android:layout_width="50dp"
+        android:layout_height="24dp"
+        android:padding="0dp"
         android:text="Чехия"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="86dp" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
