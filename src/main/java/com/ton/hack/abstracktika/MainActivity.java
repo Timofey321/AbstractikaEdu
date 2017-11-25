@@ -1,5 +1,6 @@
 package com.ton.hack.abstracktika;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,7 +22,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            
+            case R.id.teacher:
+                Intent intent = new Intent(this, Teacher.class);
+                startActivity(intent);
+                break;
+            default:
+                break;
         }
     }
 }
