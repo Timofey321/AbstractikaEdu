@@ -17,13 +17,13 @@ allprojects {
 }
 
 //task clean(type: Delete) {
-  //  delete rootProject.buildDir}
+//  delete rootProject.buildDir}
 
 apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    buildToolsVersion '26.0.1'
     defaultConfig {
         applicationId "com.ton.hack.abstracktika"
         minSdkVersion 17
