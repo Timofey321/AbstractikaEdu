@@ -57,10 +57,6 @@
         android:id="@+id/teacher"
         android:layout_width="155dp"
         android:layout_height="47dp"
-<<<<<<< HEAD
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="232dp" />
-=======
         android:text="Сенсей"
         android:layout_marginBottom="201dp"
         app:layout_constraintBottom_toTopOf="@+id/adventure"
@@ -68,6 +64,5 @@
         app:layout_constraintRight_toRightOf="@+id/textView"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="@+id/textView" />
->>>>>>> d7d5e2ef7a5cf75430827462f78a26658c67d92a
 
 </android.support.constraint.ConstraintLayout>
