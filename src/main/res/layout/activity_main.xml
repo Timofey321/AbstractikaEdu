@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.ton.hack.abstracktika.MainActivity">
 
-<<<<<<< HEAD
     <Button
         android:id="@+id/adventure"
         android:layout_width="155dp"
@@ -23,38 +22,12 @@
         android:text="Сенсей"
         app:layout_constraintBottom_toTopOf="@+id/adventure"
         tools:layout_editor_absoluteX="115dp" />
-=======
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="26dp">
-
-        <Button
-            android:id="@+id/teacher"
-            android:layout_width="match_parent"
-            android:layout_height="47dp"
-            android:text="Сенсей"
-            tools:layout_editor_absoluteX="123dp"
-            tools:layout_editor_absoluteY="87dp" />
-
-        <Button
-            android:id="@+id/adventure"
-            android:layout_width="match_parent"
-            android:layout_height="47dp"
-            android:text="Приключение"
-            tools:layout_editor_absoluteX="115dp"
-            tools:layout_editor_absoluteY="206dp" />
-
-        <Button
-            android:id="@+id/dungeon"
-            android:layout_width="match_parent"
-            android:layout_height="47dp"
-            android:text="подземелье"
-            tools:layout_editor_absoluteX="115dp"
-            tools:layout_editor_absoluteY="313dp" />
-    </LinearLayout>
->>>>>>> 4bf28b522bf36f1ffc1db0627c4328667ac7419d
-
+        tools:layout_editor_absoluteY="0dp" />
 </android.support.constraint.ConstraintLayout>
