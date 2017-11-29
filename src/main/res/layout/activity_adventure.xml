@@ -15,4 +15,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/first"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:text="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/textView3"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.263" />
+
 </android.support.constraint.ConstraintLayout>

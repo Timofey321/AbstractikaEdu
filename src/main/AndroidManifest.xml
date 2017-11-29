@@ -19,6 +19,7 @@
         <activity android:name=".Teacher" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".Adventure"></activity>
+        <activity android:name=".Battle"></activity>
     </application>
 
 </manifest>
