@@ -10,10 +10,17 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.os.CountDownTimer;
 import android.view.MotionEvent;
 import android.view.View;
 
+import java.util.TimerTask;
+
 public class BattleView extends View {
+
+
+
+
     Bitmap demon;
     public BattleView(Context context){
         super(context);
@@ -22,7 +29,7 @@ public class BattleView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        canvas.drawRGB(0, 0, 255);
+        canvas.drawRGB(133, 133, 133);
 
         Paint p = new Paint();
         p.setColor(Color.rgb(255, 255, 255));
@@ -34,5 +41,25 @@ public class BattleView extends View {
 
     }
 
+
+}
+public class MyTimer extends CountDownTimer
+{
+
+    public MyTimer(long millisInFuture, long countDownInterval)
+    {
+        super(millisInFuture, countDownInterval);
+    }
+
+    @Override
+    public void onFinish()
+    {
+        // Do something...
+    }
+
+    public void onTick(long millisUntilFinished)
+    {
+
+    }
 
 }
