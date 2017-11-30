@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btn_teach = (Button) findViewById(R.id.teacher);
         btn_teach.setOnClickListener(this);
-        btn_dunge = (Button) findViewById(R.id.dungeon);
+        btn_dunge = (Button) findViewById(R.id.button);
         btn_dunge.setOnClickListener(this);
         btn_advent = (Button) findViewById(R.id.adventure);
         btn_advent.setOnClickListener(this);
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent1 = new Intent(this, Adventure.class);
                 startActivity(intent1);
                 break;
-            case R.id.dungeon:
+            case R.id.button:
                 Intent intent2 = new Intent(this, Main2Activity.class);
                 startActivity(intent2);
                 break;
