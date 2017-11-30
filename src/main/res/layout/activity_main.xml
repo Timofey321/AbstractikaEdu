@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.ton.hack.abstracktika.MainActivity">
 
-<<<<<<< HEAD
     <Button
         android:id="@+id/adventure"
         android:layout_width="155dp"
@@ -23,7 +22,7 @@
         android:text="Сенсей"
         app:layout_constraintBottom_toTopOf="@+id/adventure"
         tools:layout_editor_absoluteX="115dp" />
-=======
+
     <TextView
         android:layout_width="164dp"
         android:layout_height="19dp"
@@ -82,7 +81,7 @@
         app:layout_constraintRight_toRightOf="@+id/textView"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="@+id/textView" />
->>>>>>> parent of 4bf28b5... Все хорошо
+
 
     <Button
         android:id="@+id/button"
