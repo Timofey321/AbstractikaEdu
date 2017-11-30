@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstractikaEdu.iml" filepath="$PROJECT_DIR$/AbstractikaEdu.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GitHub-AbstractikaEdu.iml" filepath="$PROJECT_DIR$/GitHub-AbstractikaEdu.iml" />
+      <module fileurl="file://C:\Users\Margarita\Documents\HTML\AbstractikaEdu\GitHub-AbstractikaEdu.iml" filepath="C:\Users\Margarita\Documents\HTML\AbstractikaEdu\GitHub-AbstractikaEdu.iml" />
     </modules>
   </component>
 </project>
