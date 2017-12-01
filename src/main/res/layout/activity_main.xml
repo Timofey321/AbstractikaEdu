@@ -11,24 +11,33 @@
         android:layout_width="155dp"
         android:layout_height="47dp"
         android:text="Приключение"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="287dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher" />
 
     <Button
         android:id="@+id/dungeon"
         android:layout_width="153dp"
         android:layout_height="50dp"
         android:text="подземелье"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="110dp" />
+        app:layout_constraintBottom_toTopOf="@+id/teacher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/teacher"
         android:layout_width="155dp"
         android:layout_height="47dp"
         android:text="Сенсей"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="219dp" />
+        app:layout_constraintBottom_toTopOf="@+id/adventure"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dungeon" />
 
 
 </android.support.constraint.ConstraintLayout>
