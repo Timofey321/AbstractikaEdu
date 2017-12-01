@@ -1,6 +1,7 @@
 package com.ton.hack.abstracktika;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Intent;
 =======
 import android.content.Context;
@@ -9,11 +10,17 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
+=======
+>>>>>>> parent of 29076c1... Я сделал
+=======
+import android.content.Intent;
+>>>>>>> parent of 01f77d2... Всякая всячин и приветствие.
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,7 +28,11 @@ import android.widget.Button;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
 =======
@@ -33,6 +44,8 @@ import android.widget.Toast;
 
 import java.util.Locale;
 >>>>>>> parent of 29076c1... Я сделал
+=======
+>>>>>>> parent of 01f77d2... Всякая всячин и приветствие.
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -42,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btn_advent;
     Button btn_settings;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     Button btn_hero;
 
@@ -50,11 +64,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView final_text;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
+=======
+>>>>>>> parent of 29076c1... Я сделал
+=======
+>>>>>>> parent of 01f77d2... Всякая всячин и приветствие.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,7 +82,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
 =======
@@ -79,11 +102,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         toast.show();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
+=======
+>>>>>>> parent of 29076c1... Я сделал
+=======
+>>>>>>> parent of 01f77d2... Всякая всячин и приветствие.
 
         btn_teach = (Button) findViewById(R.id.teacher);
         btn_teach.setOnClickListener(this);
@@ -93,6 +121,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_advent.setOnClickListener(this);
         btn_settings = (Button) findViewById(R.id.Settings);
         btn_settings.setOnClickListener(this);
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -110,10 +139,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         catImageView.setImageResource(R.drawable.demon7);
         toastContainer.addView(catImageView, 0);
         toast.show();
+=======
+>>>>>>> parent of 01f77d2... Всякая всячин и приветствие.
     }
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 29076c1... Я сделал
+=======
 >>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
@@ -121,8 +155,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 >>>>>>> parent of 29076c1... Я сделал
     @Override
     public void onClick(View view) {
-
-
         switch (view.getId()){
             case R.id.teacher:
                 Intent intent = new Intent(this, Teacher.class);
