@@ -12,53 +12,23 @@
         android:layout_height="47dp"
         android:text="Приключение"
         tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="232dp" />
-
-    <TextView
-        android:layout_width="164dp"
-        android:layout_height="19dp"
-        android:text="Скоро здесь будет игра!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        android:id="@+id/textView" />
-
-    <Button
-        android:id="@+id/exit"
-        android:layout_width="155dp"
-        android:layout_height="47dp"
-        android:text="выход"
-        android:layout_marginBottom="423dp"
-        app:layout_constraintBottom_toTopOf="@+id/dungeon"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="@+id/textView"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="@+id/textView" />
+        tools:layout_editor_absoluteY="287dp" />
 
     <Button
         android:id="@+id/dungeon"
         android:layout_width="153dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:text="подземелье"
-        app:layout_constraintBottom_toTopOf="@+id/exit"
-        app:layout_constraintHorizontal_bias="0.4"
-        app:layout_constraintLeft_toLeftOf="@+id/textView"
-        app:layout_constraintRight_toRightOf="@+id/textView" />
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="110dp" />
 
     <Button
         android:id="@+id/teacher"
         android:layout_width="155dp"
         android:layout_height="47dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:text="Сенсей"
-        app:layout_constraintLeft_toLeftOf="@+id/textView"
-        app:layout_constraintRight_toRightOf="@+id/textView"
-        tools:layout_editor_absoluteY="117dp" />
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="219dp" />
 
 
 </android.support.constraint.ConstraintLayout>
