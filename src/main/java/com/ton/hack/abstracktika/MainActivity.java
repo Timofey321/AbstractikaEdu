@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btn_teach;
     Button btn_dunge;
     Button btn_advent;
+    Button btn_settings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_dunge.setOnClickListener(this);
         btn_advent = (Button) findViewById(R.id.adventure);
         btn_advent.setOnClickListener(this);
+        btn_settings = (Button) findViewById(R.id.Settings);
+        btn_settings.setOnClickListener(this);
     }
 
     @Override
@@ -40,6 +43,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.dungeon:
                 Intent intent2 = new Intent(this, Main2Activity.class);
                 startActivity(intent2);
+                break;
+            case R.id.Settings:
+                Intent intent3 = new Intent(this, Settings.class);
+                startActivity(intent3);
                 break;
             default:
                 break;

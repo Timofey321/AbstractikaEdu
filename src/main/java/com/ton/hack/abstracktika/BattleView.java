@@ -17,7 +17,21 @@ import android.view.View;
 import java.util.TimerTask;
 
 public class BattleView extends View {
+    public class MyTimer extends CountDownTimer {
 
+        public MyTimer(long millisInFuture, long countDownInterval) {
+            super(millisInFuture, countDownInterval);
+        }
+
+        @Override
+        public void onFinish() {
+            // Do something...
+        }
+
+        public void onTick(long millisUntilFinished) {
+
+        }
+    }
 
 
 
@@ -41,25 +55,5 @@ public class BattleView extends View {
 
     }
 
-
-}
-public class MyTimer extends CountDownTimer
-{
-
-    public MyTimer(long millisInFuture, long countDownInterval)
-    {
-        super(millisInFuture, countDownInterval);
-    }
-
-    @Override
-    public void onFinish()
-    {
-        // Do something...
-    }
-
-    public void onTick(long millisUntilFinished)
-    {
-
-    }
 
 }

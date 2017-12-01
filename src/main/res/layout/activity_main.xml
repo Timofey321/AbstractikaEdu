@@ -4,61 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ton.hack.abstracktika.MainActivity">
+    android:background="@drawable/backgroung"
+    tools:context="com.ton.hack.abstracktika.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
 
     <Button
         android:id="@+id/adventure"
-        android:layout_width="155dp"
+        android:layout_width="318dp"
         android:layout_height="47dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+
         android:text="Приключение"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="232dp" />
+        app:layout_constraintBottom_toTopOf="@+id/Settings"
+        app:layout_constraintEnd_toEndOf="parent"
 
-    <TextView
-        android:layout_width="164dp"
-        android:layout_height="19dp"
-        android:text="Скоро здесь будет игра!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        android:id="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/teacher"
+        tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/exit"
-        android:layout_width="155dp"
-        android:layout_height="47dp"
-        android:text="выход"
-        android:layout_marginBottom="423dp"
-        app:layout_constraintBottom_toTopOf="@+id/dungeon"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="@+id/textView"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="@+id/textView" />
 
     <Button
         android:id="@+id/dungeon"
-        android:layout_width="153dp"
+        android:layout_width="340dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+
+        android:layout_marginTop="8dp"
         android:text="подземелье"
-        app:layout_constraintBottom_toTopOf="@+id/exit"
-        app:layout_constraintHorizontal_bias="0.4"
-        app:layout_constraintLeft_toLeftOf="@+id/textView"
-        app:layout_constraintRight_toRightOf="@+id/textView" />
+
+        app:layout_constraintBottom_toTopOf="@+id/teacher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        tools:ignore="DuplicateIds" />
+
 
     <Button
         android:id="@+id/teacher"
-        android:layout_width="155dp"
-        android:layout_height="47dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_width="328dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
         android:text="Сенсей"
-        app:layout_constraintLeft_toLeftOf="@+id/textView"
-        app:layout_constraintRight_toRightOf="@+id/textView"
-        tools:layout_editor_absoluteY="117dp" />
 
+        app:layout_constraintBottom_toTopOf="@+id/adventure"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dungeon" />
+
+
+    <Button
+        android:id="@+id/Settings"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:text="Настройки"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adventure"
+        tools:ignore="MissingConstraints"
+
+        />
 
 </android.support.constraint.ConstraintLayout>
