@@ -1,6 +1,7 @@
 package com.ton.hack.abstracktika;
 
 import android.content.Context;
+import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -22,7 +23,7 @@ public class Settings extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
-
+        //пора включить звук и сделать его бесконечным
         mPlayer=MediaPlayer.create(this, R.raw.music);
         mPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
@@ -34,6 +35,7 @@ public class Settings extends AppCompatActivity {
         pauseButton = (Button) findViewById(R.id.pause);
         stopButton = (Button) findViewById(R.id.stop);
 
+        //тут мы будем работать со звуком
         audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
         int maxVolume = audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
         int curValue = audioManager.getStreamVolume(AudioManager.STREAM_MUSIC);
@@ -56,9 +58,13 @@ public class Settings extends AppCompatActivity {
             }
         });
 
-        pauseButton.setEnabled(false);
-        stopButton.setEnabled(false);
+        pauseButton.setEnabled(true);
+        stopButton.setEnabled(true);
     }
+
+
+
+    //это функция стоп
     private void stopPlay(){
         mPlayer.stop();
         pauseButton.setEnabled(false);
@@ -72,7 +78,7 @@ public class Settings extends AppCompatActivity {
             Toast.makeText(this, t.getMessage(), Toast.LENGTH_SHORT).show();
         }
     }
-
+    //это функция play
     public void play(View view){
 
         mPlayer.start();
@@ -80,6 +86,7 @@ public class Settings extends AppCompatActivity {
         pauseButton.setEnabled(true);
         stopButton.setEnabled(true);
     }
+    //это функция пауза
     public void pause(View view){
 
         mPlayer.pause();
@@ -87,7 +94,8 @@ public class Settings extends AppCompatActivity {
         pauseButton.setEnabled(false);
         stopButton.setEnabled(true);
     }
-    public void stop(View view){
+    //это функция стоп
+    /*public void stop(View view){
         stopPlay();
     }
     @Override
@@ -97,4 +105,5 @@ public class Settings extends AppCompatActivity {
             stopPlay();
         }
     }
+    */
 }
