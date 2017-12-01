@@ -100,7 +100,11 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
+=======
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
+>>>>>>> parent of 3cdb296... комить как беешный
 =======
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
 >>>>>>> parent of 3cdb296... комить как беешный
