@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.adventure:
+                System.out.print("fhudhu");
                 Intent intent1 = new Intent(this, Adventure.class);
                 startActivity(intent1);
                 break;
