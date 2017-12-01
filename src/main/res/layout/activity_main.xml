@@ -4,62 +4,110 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroung"
     tools:context="com.ton.hack.abstracktika.MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
     <Button
         android:id="@+id/adventure"
-        android:layout_width="318dp"
+        android:layout_width="match_parent"
         android:layout_height="47dp"
+<<<<<<< HEAD
         android:layout_marginEnd="16dp"
+=======
+>>>>>>> parent of bde7faf... ФОООООООООООООООООООООООН
         android:layout_marginTop="8dp"
-
         android:text="Приключение"
-        app:layout_constraintBottom_toTopOf="@+id/Settings"
+<<<<<<< HEAD
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/teacher"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toTopOf="@+id/Settings"
+        app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
 
+        app:layout_constraintHorizontal_bias="0.5"
+=======
+        app:layout_constraintHorizontal_bias="0.502"
+>>>>>>> parent of bde7faf... ФОООООООООООООООООООООООН
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher"
+        tools:ignore="MissingConstraints" />
+=======
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher" />
+>>>>>>> d0a93a641ab6d314d9593041e4e7ca3af2b1873c
+
+    <Button
+        android:id="@+id/Settings"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Настройки"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+=======
+        app:layout_constraintTop_toBottomOf="@+id/adventure"
+        tools:ignore="MissingConstraints" />
+>>>>>>> d0a93a641ab6d314d9593041e4e7ca3af2b1873c
 
     <Button
         android:id="@+id/dungeon"
-        android:layout_width="340dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
 
         android:layout_marginTop="8dp"
         android:text="подземелье"
-
+<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/teacher"
+=======
+>>>>>>> d0a93a641ab6d314d9593041e4e7ca3af2b1873c
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
 
         app:layout_constraintTop_toTopOf="parent"
+=======
+        app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="110dp" />
+=======
+>>>>>>> parent of bde7faf... ФОООООООООООООООООООООООН
         tools:ignore="DuplicateIds" />
-
+>>>>>>> d0a93a641ab6d314d9593041e4e7ca3af2b1873c
 
     <Button
         android:id="@+id/teacher"
-        android:layout_width="328dp"
-        android:layout_height="49dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Сенсей"
-
+<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/adventure"
-
+=======
+>>>>>>> d0a93a641ab6d314d9593041e4e7ca3af2b1873c
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dungeon" />
+<<<<<<< HEAD
+
 
 
     <Button
         android:id="@+id/Settings"
-        android:layout_width="299dp"
+        android:layout_width="165dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
         android:text="Настройки"
@@ -70,8 +118,15 @@
         app:layout_constraintTop_toBottomOf="@+id/adventure"
         tools:ignore="MissingConstraints"
 
-        />
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="219dp" />
 
+
+
+=======
+
+
+<<<<<<< HEAD
     <Button
         android:id="@+id/hero"
         android:layout_width="306dp"
@@ -81,4 +136,7 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="437dp" />
 
+=======
+>>>>>>> d0a93a641ab6d314d9593041e4e7ca3af2b1873c
+>>>>>>> parent of bde7faf... ФОООООООООООООООООООООООН
 </android.support.constraint.ConstraintLayout>
