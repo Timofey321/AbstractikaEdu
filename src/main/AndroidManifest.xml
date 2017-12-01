@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!-- suppress ALL -->
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ton.hack.abstracktika">
 
@@ -20,8 +21,7 @@
         <activity android:name=".Main2Activity" />
         <activity android:name=".Adventure" />
         <activity android:name=".Battle" />
-        <activity android:name=".Settings" />
-        <activity android:name=".hero"></activity>
+        <activity android:name=".Settings"></activity>
     </application>
 
 </manifest>
