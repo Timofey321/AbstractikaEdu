@@ -11,43 +11,43 @@
         android:id="@+id/adventure"
         android:layout_width="155dp"
         android:layout_height="47dp"
+        android:layout_marginBottom="92dp"
         android:text="Приключение"
         app:layout_constraintBottom_toTopOf="@+id/Settings"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/teacher"
         tools:ignore="MissingConstraints" />
 
     <Button
+        android:id="@+id/dungeon"
+        android:layout_width="155dp"
+        android:layout_height="47dp"
+        android:text="подземелье"
+        app:layout_constraintBottom_toTopOf="@+id/teacher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/teacher"
         android:layout_width="155dp"
         android:layout_height="47dp"
-        android:layout_marginBottom="36dp"
         android:text="Сенсей"
         app:layout_constraintBottom_toTopOf="@+id/adventure"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/dungeon" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="159dp"
-        android:layout_height="wrap_content"
-        android:text="button"
-        app:layout_constraintBottom_toTopOf="@+id/teacher"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/Settings"
         android:layout_width="165dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
         android:text="Настройки"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
