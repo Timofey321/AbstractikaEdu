@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context="com.ton.hack.abstracktika.Adventure">
 
     <TextView
@@ -20,13 +22,12 @@
         android:id="@+id/first"
         android:layout_width="69dp"
         android:layout_height="40dp"
-        android:text="1"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        android:layout_marginBottom="64dp"
         android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="@+id/textView3"
-        android:layout_marginLeft="0dp"
+        android:text="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.263"
         app:layout_constraintLeft_toLeftOf="@+id/textView3"
-        app:layout_constraintHorizontal_bias="0.263" />
+        app:layout_constraintRight_toRightOf="@+id/textView3" />
 
 </android.support.constraint.ConstraintLayout>
