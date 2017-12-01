@@ -68,6 +68,7 @@ public class MainActivity extends BuildConfig.AppCompatActivity implements View.
                 startActivity(intent);
                 break;
             case R.id.adventure:
+                System.out.print("fhudhu");
                 Intent intent1 = new Intent(this, Adventure.class);
                 startActivity(intent1);
                 break;
