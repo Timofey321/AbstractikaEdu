@@ -13,14 +13,11 @@
         android:layout_height="47dp"
         android:layout_marginBottom="92dp"
         android:text="Приключение"
-<<<<<<< HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/teacher" />
-=======
-<<<<<<< HEAD
+        app:layout_constraintTop_toBottomOf="@+id/teacher"
         app:layout_constraintBottom_toTopOf="@+id/Settings"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -37,45 +34,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-=======
+        app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="115dp"
         tools:layout_editor_absoluteY="287dp" />
->>>>>>> 346edda5392be6effbdba90c983e404cef9d797b
+
 
     <Button
         android:id="@+id/dungeon"
         android:layout_width="153dp"
         android:layout_height="50dp"
         android:text="подземелье"
-<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/teacher"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-=======
+        app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="110dp" />
->>>>>>> 6e05e201bad07f0199c88c6840c5a2d8ae1ebdf8
->>>>>>> 346edda5392be6effbdba90c983e404cef9d797b
 
     <Button
         android:id="@+id/teacher"
         android:layout_width="155dp"
         android:layout_height="47dp"
         android:text="Сенсей"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 346edda5392be6effbdba90c983e404cef9d797b
         app:layout_constraintBottom_toTopOf="@+id/adventure"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dungeon" />
-<<<<<<< HEAD
-=======
+
 
 
     <Button
@@ -89,12 +76,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/adventure"
-        tools:ignore="MissingConstraints" />
-=======
+        tools:ignore="MissingConstraints"
+
         tools:layout_editor_absoluteX="115dp"
         tools:layout_editor_absoluteY="219dp" />
->>>>>>> 346edda5392be6effbdba90c983e404cef9d797b
 
 
->>>>>>> 6e05e201bad07f0199c88c6840c5a2d8ae1ebdf8
+
 </android.support.constraint.ConstraintLayout>
