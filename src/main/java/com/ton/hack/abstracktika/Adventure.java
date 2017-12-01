@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Adventure extends AppCompatActivity implements View.OnClickListener {
+public class Adventure extends BuildConfig.AppCompatActivity implements View.OnClickListener {
     Button first;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

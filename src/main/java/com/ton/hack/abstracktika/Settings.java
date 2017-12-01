@@ -11,7 +11,7 @@ import android.widget.SeekBar;
 import android.widget.Toast;
 
 
-public class Settings extends AppCompatActivity {
+public class Settings extends BuildConfig.AppCompatActivity {
 
     MediaPlayer mPlayer;
     Button startButton, pauseButton, stopButton;
