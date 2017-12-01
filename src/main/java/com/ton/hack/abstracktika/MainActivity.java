@@ -19,7 +19,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    int x = 2;
+
     Button btn_teach;
     Button btn_dunge;
     Button btn_advent;
