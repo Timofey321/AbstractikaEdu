@@ -5,7 +5,7 @@ import android.os.Bundle;
  * Created by tkorg on 27.11.2017.
  */
 
-public class Battle extends AppCompatActivity{
+public class Battle extends BuildConfig.AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

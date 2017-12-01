@@ -3,7 +3,7 @@ package com.ton.hack.abstracktika;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Teacher extends AppCompatActivity {
+public class Teacher extends BuildConfig.AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

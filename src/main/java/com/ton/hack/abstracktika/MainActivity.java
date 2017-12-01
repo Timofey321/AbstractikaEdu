@@ -1,23 +1,16 @@
 package com.ton.hack.abstracktika;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.res.Configuration;
-import android.content.res.Resources;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.Locale;
-
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends BuildConfig.AppCompatActivity implements View.OnClickListener {
 
 
     Button btn_teach;
@@ -26,15 +19,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btn_settings;
     Button btn_hero;
 
-    final Context context = this;
-    private Button button;
-    private TextView final_text;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final_text = (TextView) findViewById(R.id.final_text);
+
         Toast toast = Toast.makeText(getApplicationContext(),
                 "с возвращением, хозяин", Toast.LENGTH_LONG);
         toast.setGravity(Gravity.CENTER, 0, 0);
