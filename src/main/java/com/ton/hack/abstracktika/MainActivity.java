@@ -7,13 +7,19 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+<<<<<<< HEAD
+>>>>>>> parent of 29076c1... Я сделал
+=======
 >>>>>>> parent of 29076c1... Я сделал
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 29076c1... Я сделал
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -36,6 +42,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     final Context context = this;
     private Button button;
     private TextView final_text;
+<<<<<<< HEAD
+>>>>>>> parent of 29076c1... Я сделал
+=======
 >>>>>>> parent of 29076c1... Я сделал
 
     @Override
@@ -43,7 +52,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 29076c1... Я сделал
         final_text = (TextView) findViewById(R.id.final_text);
         Toast toast = Toast.makeText(getApplicationContext(),
                 "с возвращением, хозяин", Toast.LENGTH_LONG);
@@ -53,6 +65,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         catImageView.setImageResource(R.drawable.demon7);
         toastContainer.addView(catImageView, 0);
         toast.show();
+<<<<<<< HEAD
+>>>>>>> parent of 29076c1... Я сделал
+=======
 >>>>>>> parent of 29076c1... Я сделал
 
         btn_teach = (Button) findViewById(R.id.teacher);
@@ -82,6 +97,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         toast.show();
     }
 
+<<<<<<< HEAD
+>>>>>>> parent of 29076c1... Я сделал
+=======
 >>>>>>> parent of 29076c1... Я сделал
     @Override
     public void onClick(View view) {

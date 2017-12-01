@@ -13,7 +13,11 @@
         android:layout_width="318dp"
         android:layout_height="47dp"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:layout_marginEnd="32dp"
+=======
+        android:layout_marginEnd="16dp"
+>>>>>>> parent of 29076c1... Я сделал
 =======
         android:layout_marginEnd="16dp"
 >>>>>>> parent of 29076c1... Я сделал
@@ -24,6 +28,11 @@
         app:layout_constraintEnd_toEndOf="parent"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+>>>>>>> parent of 29076c1... Я сделал
 =======
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,8 +54,13 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 <<<<<<< HEAD
+<<<<<<< HEAD
         app:layout_constraintTop_toTopOf="parent"
 
+=======
+
+        app:layout_constraintTop_toTopOf="parent"
+>>>>>>> parent of 29076c1... Я сделал
 =======
 
         app:layout_constraintTop_toTopOf="parent"
@@ -61,7 +75,10 @@
         android:layout_marginTop="8dp"
         android:text="Сенсей"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 29076c1... Я сделал
 
         app:layout_constraintBottom_toTopOf="@+id/adventure"
 
@@ -69,6 +86,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dungeon" />
+<<<<<<< HEAD
 >>>>>>> parent of 29076c1... Я сделал
 
         app:layout_constraintBottom_toTopOf="@+id/adventure"
@@ -78,6 +96,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dungeon" />
+=======
+>>>>>>> parent of 29076c1... Я сделал
 
 
     <Button
@@ -88,14 +108,24 @@
         android:text="Настройки"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adventure"
+        tools:ignore="MissingConstraints"
+=======
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/adventure"
         tools:ignore="MissingConstraints"
 
         />
+>>>>>>> parent of 29076c1... Я сделал
+
+        />
 =======
     <Button
+<<<<<<< HEAD
         android:id="@+id/Settings"
         android:layout_width="299dp"
         android:layout_height="wrap_content"
@@ -114,11 +144,19 @@
         android:id="@+id/hero"
         android:layout_width="306dp"
         android:layout_height="wrap_content"
+=======
+        android:id="@+id/hero"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+>>>>>>> parent of 29076c1... Я сделал
         android:text="о персонаже"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="436dp" />
+<<<<<<< HEAD
+>>>>>>> parent of 29076c1... Я сделал
+=======
 >>>>>>> parent of 29076c1... Я сделал
 
 </android.support.constraint.ConstraintLayout>
