@@ -18,45 +18,32 @@ import java.util.TimerTask;
 
 public class BattleView extends View {
 
-<<<<<<< HEAD
-    public class MyTimer extends CountDownTimer
-    {
 
-        public MyTimer(long millisInFuture, long countDownInterval)
-        {
-=======
-    Bitmap[] demons = {BitmapFactory.decodeResource(getResources(), R.drawable.demon1),BitmapFactory.decodeResource(getResources(), R.drawable.demon2),BitmapFactory.decodeResource(getResources(), R.drawable.demon3),BitmapFactory.decodeResource(getResources(), R.drawable.demon4),BitmapFactory.decodeResource(getResources(), R.drawable.demon5),BitmapFactory.decodeResource(getResources(), R.drawable.demon6),BitmapFactory.decodeResource(getResources(), R.drawable.demon7)};
     public class MyTimer extends CountDownTimer {
-        int i=0;
+        int i = 0;
+        Bitmap[] demons = {BitmapFactory.decodeResource(getResources(), R.drawable.demon1), BitmapFactory.decodeResource(getResources(), R.drawable.demon2), BitmapFactory.decodeResource(getResources(), R.drawable.demon3), BitmapFactory.decodeResource(getResources(), R.drawable.demon4), BitmapFactory.decodeResource(getResources(), R.drawable.demon5), BitmapFactory.decodeResource(getResources(), R.drawable.demon6), BitmapFactory.decodeResource(getResources(), R.drawable.demon7)};
+
         public MyTimer(long millisInFuture, long countDownInterval) {
->>>>>>> 08fa0622f04a572e6c7f2c949df4d256e874d333
             super(millisInFuture, countDownInterval);
+
+
         }
 
         @Override
-<<<<<<< HEAD
-        public void onFinish()
-        {
-            // Do something...
-        }
-=======
         public void onFinish() {
             // Do something...
         }
 
+
         public void onTick(long millisUntilFinished) {
             demon = demons[i];
-            i=i+1;
+            i = i + 1;
             invalidate();
 
         }
-    }
->>>>>>> 08fa0622f04a572e6c7f2c949df4d256e874d333
 
-        public void onTick(long millisUntilFinished)
-        {
 
-        }
+
 
     }
 
@@ -83,8 +70,7 @@ public class BattleView extends View {
        // canvas.drawText("Очки: "+points, 100, 100, p);
         canvas.drawBitmap(demon, 50, 100, p);
 
-<<<<<<< HEAD
-=======
+
 
         Paint p2 = new Paint();
         p2.setColor(Color.rgb(255, 255, 255));
@@ -95,5 +81,5 @@ public class BattleView extends View {
     }
 
 
->>>>>>> 08fa0622f04a572e6c7f2c949df4d256e874d333
+
 }
