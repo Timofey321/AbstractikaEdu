@@ -8,6 +8,9 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 29076c1... Я сделал
+=======
 >>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
@@ -17,7 +20,10 @@ import android.view.View;
 import android.widget.Button;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
 import android.widget.ImageView;
@@ -43,6 +49,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button button;
     private TextView final_text;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 29076c1... Я сделал
+=======
 >>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
@@ -53,7 +62,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
         final_text = (TextView) findViewById(R.id.final_text);
@@ -66,6 +78,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         toastContainer.addView(catImageView, 0);
         toast.show();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 29076c1... Я сделал
+=======
 >>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
@@ -98,6 +113,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 29076c1... Я сделал
+=======
 >>>>>>> parent of 29076c1... Я сделал
 =======
 >>>>>>> parent of 29076c1... Я сделал
